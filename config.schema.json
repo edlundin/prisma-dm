@@ -6,7 +6,7 @@
       "type": "string",
       "pattern": "^(\\/|\\.?\\/|\\.\\.\\/|[^\\/]+).*$",
       "description": "The schema version for this configuration file. Must be a valid schema version.",
-      "default": "./node_modules/prisma-data-migrations/config.schema.json"
+      "default": "./node_modules/prisma-dm/config.schema.json"
     },
     "execScriptCommand": {
       "type": "string",
@@ -18,7 +18,7 @@
       "type": "string",
       "pattern": "^(\\/|\\.?\\/|\\.\\.\\/|[^\\/]+).*$",
       "description": "The output directory for the generated migrations. Must be a valid directory path.",
-      "default": "../../../node_modules/prisma-data-migrations/migrations"
+      "default": "../../../node_modules/prisma-dm/migrations"
     },
     "migrationsDir": {
       "type": "string",

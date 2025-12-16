@@ -1,6 +1,6 @@
 {
   "name": "prisma-dm",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "main": "dist/src/main.js",
   "types": "dist/src/main.d.ts",
   "files": [
@@ -28,7 +28,7 @@
     "url": "https://github.com/edlundin/prisma-dm/issues"
   },
   "homepage": "https://github.com/edlundin/prisma-dm#readme",
-  "description": "Enhances Prisma ORM with support for post-migration data scripts. Forked from Softjey/prisma-data-migrations",
+  "description": "Enhances Prisma ORM with support for post-migration data scripts. Forked from Softjey/prisma-dm",
   "keywords": [
     "prisma",
     "data-migrations",

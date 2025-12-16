@@ -24,7 +24,7 @@ Forked from https://github.com/Softjey/prisma-dm.
 Install the library via npm:
 
 ```bash
-npm install prisma-data-migrations --save-dev
+npm install prisma-dm --save-dev
 ```
 
 ## Usage
@@ -94,10 +94,7 @@ Commands:
    Create a post-migration script in the migration folder. The script must be named `post` and can have any file extension (e.g., `.ts`, `.js`, `.sh`). Example:
 
    ```typescript
-   import {
-     Prisma,
-     PrismaClient,
-   } from "prisma-data-migrations/migrations/20250108201031_add_user_name";
+   import { Prisma, PrismaClient } from "prisma-dm/migrations/20250108201031_add_user_name";
 
    async function nameUsers(prisma: Prisma.TransactionClient) {
      await prisma.user.updateMany({
@@ -173,7 +170,7 @@ The configuration file (`prisma-dm.config.json`) allows customization of the lib
 
 - **`outputDir`**: Directory for generated migration files.
 
-  - **Default**: `../../../node_modules/prisma-data-migrations/migrations`.
+  - **Default**: `../../../node_modules/prisma-dm/migrations`.
   - **Note**: This path is specified **relative to** the `migrations/{some_migration}/schema.prisma` file, as it is the value of the `output` parameter in the Prisma schema settings block.
 
 - **`migrationsDir`**: Directory containing Prisma migrations. Default: `prisma/migrations`.
