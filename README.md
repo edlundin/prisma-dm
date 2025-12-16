@@ -17,6 +17,8 @@
 
 Prisma Data Migrations is a library designed to address the lack of built-in support for data migrations in Prisma ORM. It allows you to execute post-migration scripts alongside schema migrations.
 
+Forked from https://github.com/Softjey/prisma-dm.
+
 ## Installation
 
 Install the library via npm:

@@ -1,6 +1,6 @@
 {
   "name": "prisma-dm",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "main": "dist/src/main.js",
   "types": "dist/src/main.d.ts",
   "files": [
@@ -22,7 +22,7 @@
     "url": "git+https://github.com/edlundin/prisma-dm"
   },
   "author": "Softjey",
-  "contributes": ["Edlundin"],
+  "contributes": ["Softjey","Edlundin"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edlundin/prisma-dm/issues"
